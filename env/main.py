@@ -2,7 +2,6 @@ import os
 import PyPDF2
 from flask import Flask, jsonify, request
 from pathlib import Path 
-from datetime import datetime
 
 #function to rotate pdf pages
 def rotatePage(path,n,angle):
